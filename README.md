@@ -1,6 +1,7 @@
 # First Website 2.0
-===
 Using jQuery to add interactivity to your first-website project.
+
+---
 
 **Table of Contents**
 - [First Website 2.0](#first-website-2.0)
