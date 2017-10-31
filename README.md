@@ -75,11 +75,29 @@ Inside the `container2` div, create another `<div>` with the class `professional
 ### TODO 3: Add HTML Elements
 Now, the fun begins. We've structured out our divs, so now it's time to add some content. Add the following to your `professional-content` div:
 
-1.
-2.
-3.
-4.
-### TODO 4: Style Your NEw Section with CSS
+1. Create a `<header>` tag that will read `Professional Interests`
+2. Create a `<section>` tag with the class `intrests`
+3. Create a `<button>` tag. The button should say `use me to see my professional intrests`
+4. Create an `unordered list` of three professional interests you have. They can be programming languages you're interested in learning, fields of study you're considering for college, or careers you're interested in.
+
+Your end result should look something like this (don't copy this code, just use as a reference):
+```HTML
+  <div class="container2">
+    <div class="professional-content">
+      <header>Professional Interests</header>
+        <section class="interests">
+          <button>Use me to see my professional intrests</button>
+            <ul class="professional-interests">
+              <li>JavaScript Web Development</li>
+              <li>Data Science</li>
+              <li>Analyzing data using Python</li>
+            </ul>
+        </section>
+     </div>
+  </div>
+```
+
+### TODO 4: Style Your New Section with CSS
 ### TODO 5: Import jQuery
 ### TODO 6: Create a jQuery Function for Your Button
 ### TODO 7: Commit and Push Your Changes to Github
