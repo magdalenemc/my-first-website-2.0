@@ -135,9 +135,10 @@ Start by creating a function like so:
 (https://www.w3schools.com/jquery/jquery_events.asp)
 
 4. Finally, inside that event, add some action to your unordered list. This will also be up to you. Use google and the link below to find more jQuery effects. 
-Make sure to google how to effectively access the unordered list in order to use it in the jQuery effect. An example will be provided below
+(https://www.w3schools.com/jquery/jquery_ref_effects.asp)
+Make sure to google how to effectively access the unordered list in order to use it in the jQuery effect. An example will be provided below.
 
-In the example below, once the button is clicked, the list of events will appear or disappear (don't copy, just use as a reference):
+In this example, once the button is clicked, the list of events will appear or disappear (don't copy, just use as a reference):
 
   ```HTML
         <script>
