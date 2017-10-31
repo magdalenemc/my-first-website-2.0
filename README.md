@@ -138,7 +138,7 @@ Start by creating a function like so:
 Make sure to google how to effectively access the unordered list in order to use it in the jQuery effect. An example will be provided below
 
 In the example below, once the button is clicked, the list of events will appear or disappear (don't copy, just use as a reference):
-<script>
+
   ```JavaScript
             $(document).ready(function(){
                 $("button").click(function(){
