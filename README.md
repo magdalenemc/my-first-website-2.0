@@ -98,6 +98,70 @@ Your end result should look something like this (don't copy this code, just use 
 ```
 
 ### TODO 4: Style Your New Section with CSS
+Now that your elements are created, it's time to add some styling to them in CSS. The container div that you just created should have all of the exact same styling rules as the first container div.
+
+1. Find the CSS selector for the original container `<div>` and all the elements within it.
+2. Create a new selector for the `container2` `<div>` and all of the elements within it.
+3. Mimic the style rules from the first container so that the new section we created looks just like it!
+
 ### TODO 5: Import jQuery
+Now that we've created our HTML elements, it's time to start adding some jQuery to our page.
+First, import the jQuery library by pasting the following code into your `<head>` tag, underneath the closing `</style>` tag:
+ ```HTML
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+```
 ### TODO 6: Create a jQuery Function for Your Button
+Now let's add some interactivity to the button we created in our HTML Code.
+1. First, create another `<script>` tag, underneath the jQuery library source, like so:
+```HTML
+<script>
+  
+</script>
+```
+2. Now, within the script tag, we're going to create a function that adds some type of motion to your unordered list of interests, using the button we created. 
+
+An example of this would be your list appearing and dissapearing every time someone clicks the button.
+
+Start by creating a function like so:
+```JavaScript
+<script>
+ $(document).ready(function(){
+                
+  });
+</script>  
+```
+
+3. Next we need to add a JQuery event that will trigger every time the button is used. This action will be up to you! Some examples are listed here for you:
+(https://www.w3schools.com/jquery/jquery_events.asp)
+
+4. Finally, inside that event, add some action to your unordered list. This will also be up to you. Use google and the link below to find more jQuery effects. 
+Make sure to google how to effectively access the unordered list in order to use it in the jQuery effect. An example will be provided below
+
+In the example below, once the button is clicked, the list of events will appear or disappear (don't copy, just use as a reference):
+<script>
+  ```JavaScript
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $("ul.professional-interests").toggle();
+                });
+            });
+  ```
+  Now you've done it! You've created an awesome, upgraded first-website!
 ### TODO 7: Commit and Push Your Changes to Github
+Enter the following commands, and be careful to place your spaces correctly and press `ENTER` after each one. Read the results of each command and check for errors.
+
+First, add all the files we worked into git so that they can be archived in our source control:
+
+1. First, **add** all the files we worked into git so that they can be archived into a set of changes in our source control:
+    
+        git add -A
+
+2. Then **commit** everything that has been added to the set of changes:
+    
+        git commit -m 'A basic website'
+
+3. Finally, sync the repository in cloud9 with the one on github by **pushing** your set of changes. **If** you are prompted, just type 'yes' to proceed, but you may not be asked.
+    
+        git push
+    
+If asked, enter your Github username and password. 
