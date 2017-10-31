@@ -123,7 +123,7 @@ Now let's add some interactivity to the button we created in our HTML Code.
 An example of this would be your list appearing and dissapearing every time someone clicks the button.
 
 Start by creating a function like so:
-```JavaScript
+```HTML
 <script>
  $(document).ready(function(){
                 
@@ -139,12 +139,14 @@ Make sure to google how to effectively access the unordered list in order to use
 
 In the example below, once the button is clicked, the list of events will appear or disappear (don't copy, just use as a reference):
 
-  ```JavaScript
+  ```HTML
+        <script>
             $(document).ready(function(){
                 $("button").click(function(){
                     $("ul.professional-interests").toggle();
                 });
             });
+        </script>
   ```
   Now you've done it! You've created an awesome, upgraded first-website!
 ### TODO 7: Commit and Push Your Changes to Github
