@@ -53,7 +53,7 @@ First, find the `main` tag in the HTML of your `index.html` file. It should look
       </div>
     <main>
 ```
-Once you've found it, we're going to create a *new* container div right beneath it. Right below the closing `</div>` tag, create a new `<div>` with the class `container` like so:
+Once you've found it, we're going to create a *new* container div right beneath it. Right below the closing `<main>` tag, create a new `<div>` with the class `container` like so:
 
 ```HTML
 <div class="container">
@@ -100,9 +100,9 @@ Your end result should look something like this (don't copy this code, just use 
 ### TODO 4: Style Your New Section with CSS
 Now that your elements are created, it's time to add some styling to them in CSS. The container div that you just created should have all of the exact same styling rules as the first container div.
 
-1. Find the CSS selector for the original container `<div>` and all the elements within it.
+1. Find the CSS selector for the main tag, `<main>` and all the elements within it.
 2. Create a new selector for the `container` `<div>` and all of the elements within it.
-3. Mimic the style rules from the first container so that the new section we created looks just like it!
+3. Mimic the style rules from the `<main>` tag so that the new section we created looks just like it!
 
 ### TODO 5: Import jQuery
 Now that we've created our HTML elements, it's time to start adding some jQuery to our page.
